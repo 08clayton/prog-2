@@ -17,4 +17,6 @@ Instalação do posting: pipx install posting
 Notas
 
 private e protected sao coisas diferentes onde private é acessivel dentro da classe e protected acessível na classe e subclasses
+
+
 async → transforma a função em assíncrona (retorna Promise) await → pausa a execução até a Promise terminar
