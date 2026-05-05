@@ -1,3 +1,4 @@
+*APi.ts*
 ```typescript
 import todo from "./core.ts";
 
@@ -100,9 +101,8 @@ const server = Bun.serve({
 
 console.log(`Server running at http://localhost:${server.port}`);
 ```
-
-
-
+---
+*core.ts*
 ```typescript
 const jsonFilePath = __dirname + '/data.temp.json';
 const list: string[] = await loadFromFile();
